@@ -45,13 +45,27 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/ssr_diag:system/bin/ssr_diag \
 	$(LOCAL_PATH)/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	$(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
-	$(LOCAL_PATH)/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Bluetooth_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/General_cal.acdb:system/etc/acdbdata/Fluid/General_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Global_cal.acdb:system/etc/acdbdata/Fluid/Global_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Handset_cal.acdb:system/etc/acdbdata/Fluid/Handset_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Hdmi_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Headset_cal.acdb:system/etc/acdbdata/Fluid/Headset_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Speaker_cal.acdb:system/etc/acdbdata/Fluid/Speaker_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Bluetooth_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/General_cal.acdb:system/etc/acdbdata/Liquid/General_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Global_cal.acdb:system/etc/acdbdata/Liquid/Global_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Handset_cal.acdb:system/etc/acdbdata/Liquid/Handset_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Hdmi_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Headset_cal.acdb:system/etc/acdbdata/Liquid/Headset_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Speaker_cal.acdb:system/etc/acdbdata/Liquid/Speaker_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/Bluetooth_cal.acdb:system/etc/acdbdata/MTP/Bluetooth_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/General_cal.acdb:system/etc/acdbdata/MTP/General_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/Global_cal.acdb:system/etc/acdbdata/MTP/Global_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/Handset_cal.acdb:system/etc/acdbdata/MTP/Handset_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/Hdmi_cal.acdb:system/etc/acdbdata/MTP/Hdmi_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/Headset_cal.acdb:system/etc/acdbdata/MTP/Headset_cal.acdb \
+	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/Speaker_cal.acdb:system/etc/acdbdata/MTP/Speaker_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
