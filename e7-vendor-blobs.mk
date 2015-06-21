@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
 	$(LOCAL_PATH)/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
 	$(LOCAL_PATH)/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-	$(LOCAL_PATH)/proprietary/lib/libmmcamera_ov16825_eeprom.so:system/lib/libmmcamera_ov16825_eeprom.so \
 	$(LOCAL_PATH)/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	$(LOCAL_PATH)/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
 	$(LOCAL_PATH)/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
@@ -175,7 +174,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_video.so:system/vendor/lib/libchromatix_ov16825_video.so.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_video_hd.so:system/vendor/lib/libchromatix_ov16825_video_hd.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_zsl.so:system/vendor/lib/libchromatix_ov16825_zsl.so \
-	$(LOCAL_PATH)/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
