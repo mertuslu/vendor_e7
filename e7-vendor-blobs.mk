@@ -14,10 +14,6 @@
 
 LOCAL_PATH := vendor/gm/e7
 
-# Libraries needed at build time
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/vendor/lib/libacdbloader.so:obj/lib/libacdbloader.so
-
 # Libraries
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/adsprpcd:system/bin/adsprpcd \
@@ -45,20 +41,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/ssr_diag:system/bin/ssr_diag \
 	$(LOCAL_PATH)/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	$(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -146,6 +128,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+        $(LOCAL_PATH)/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+        $(LOCAL_PATH)/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+        $(LOCAL_PATH)/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
