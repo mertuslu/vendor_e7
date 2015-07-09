@@ -103,7 +103,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
 	$(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
         $(LOCAL_PATH)/proprietary/lib/libtouchless_a3d.so:system/lib/libtouchless_a3d.so \
-        $(LOCAL_PATH)/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd :system/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd  \
+        $(LOCAL_PATH)/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd \
         $(LOCAL_PATH)/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_PreI2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_PreI2C_NCD_Unsigned_configdata.ncd \
 	$(LOCAL_PATH)/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
