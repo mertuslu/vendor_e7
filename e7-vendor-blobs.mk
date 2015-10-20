@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
 	$(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
 	$(LOCAL_PATH)/proprietary/bin/efsks:system/bin/efsks \
+            $(LOCAL_PATH)/proprietary/bin/charger_monitor:system/bin/charger_monitor \
+            $(LOCAL_PATH)/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+            $(LOCAL_PATH)/proprietary/bin/qrngd:system/bin/qrngd \
+            $(LOCAL_PATH)/proprietary/bin/qrngp:system/bin/qrngp \
 	$(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	$(LOCAL_PATH)/proprietary/bin/ks:system/bin/ks \
 	$(LOCAL_PATH)/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
