@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-        $(LOCAL_PATH)/proprietary/etc/firmware/audience-es325-fw.bin:system/etc/firmware/audience-es325-fw.bin \
 	$(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -107,9 +106,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	$(LOCAL_PATH)/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-        $(LOCAL_PATH)/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-        $(LOCAL_PATH)/proprietary/lib/libnative_camera_r2.3.3.so:system/lib/libnative_camera_r2.3.3.so \
-	$(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \       
+	$(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	$(LOCAL_PATH)/proprietary/lib/libgn_camera_feature.so:system/lib/libgn_camera_feature.so \
 	$(LOCAL_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	$(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -123,9 +120,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	$(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
 	$(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-        $(LOCAL_PATH)/proprietary/lib/libtouchless_a3d.so:system/lib/libtouchless_a3d.so \
-        $(LOCAL_PATH)/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd \
-        $(LOCAL_PATH)/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_PreI2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_PreI2C_NCD_Unsigned_configdata.ncd \
 	$(LOCAL_PATH)/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
