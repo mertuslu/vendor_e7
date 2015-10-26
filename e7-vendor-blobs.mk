@@ -17,26 +17,19 @@ LOCAL_PATH := vendor/gm/e7
 # Libraries
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-	$(LOCAL_PATH)/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
 	$(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
-	$(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
-	$(LOCAL_PATH)/proprietary/bin/efsks:system/bin/efsks \
         $(LOCAL_PATH)/proprietary/bin/charger_monitor:system/bin/charger_monitor \
         $(LOCAL_PATH)/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
         $(LOCAL_PATH)/proprietary/bin/qrngd:system/bin/qrngd \
         $(LOCAL_PATH)/proprietary/bin/qrngp:system/bin/qrngp \
 	$(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	$(LOCAL_PATH)/proprietary/bin/ks:system/bin/ks \
 	$(LOCAL_PATH)/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
 	$(LOCAL_PATH)/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
 	$(LOCAL_PATH)/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	$(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
-	$(LOCAL_PATH)/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
 	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	$(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
 	$(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
-	$(LOCAL_PATH)/proprietary/bin/qcks:system/bin/qcks \
-	$(LOCAL_PATH)/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
 	$(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
 	$(LOCAL_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
 	$(LOCAL_PATH)/proprietary/bin/rfs_access:system/bin/rfs_access \
@@ -117,6 +110,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	$(LOCAL_PATH)/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	$(LOCAL_PATH)/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+	$(LOCAL_PATH)/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
 	$(LOCAL_PATH)/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	$(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
 	$(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
@@ -229,6 +223,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
