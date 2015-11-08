@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	$(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	$(LOCAL_PATH)/proprietary/lib/libgn_camera_feature.so:system/lib/libgn_camera_feature.so \
+	$(LOCAL_PATH)/proprietary/lib/libnative_camera_r2.3.3.so:system/lib/libnative_camera_r2.3.3.so \
 	$(LOCAL_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	$(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	$(LOCAL_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -155,6 +156,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov8835_common.so:system/vendor/lib/libchromatix_gn_sunny_ov8835_common.so \
+	
+	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov8835_common.so:system/vendor/lib/libchromatix_gn_sunny_ov8835_common.so \
+	
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov8835_default_video.so:system/vendor/lib/libchromatix_gn_sunny_ov8835_default_video.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov8835_preview.so:system/vendor/lib/libchromatix_gn_sunny_ov8835_preview.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov8835_gesture.so:system/vendor/lib/libchromatix_gn_sunny_ov8835_gesture.so \
@@ -210,7 +214,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_gn_sunny_ov8835.so:system/vendor/lib/libmmcamera_gn_sunny_ov8835.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_gn_sunny_ov4688.so:system/vendor/lib/libmmcamera_gn_sunny_ov4688.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_gn_sunny_ov16825.so:system/vendor/lib/libmmcamera_gn_sunny_ov16825.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov16825.so:system/vendor/lib/libmmcamera_ov16825.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov16825_eeprom.so:system/vendor/lib/libmmcamera_ov16825_eeprom.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/ibmmcamera_ov8825.so:system/vendor/lib/ibmmcamera_ov8825.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
