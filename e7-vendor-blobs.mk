@@ -215,7 +215,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_gn_sunny_ov16825.so:system/vendor/lib/libmmcamera_gn_sunny_ov16825.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov16825.so:system/vendor/lib/libmmcamera_ov16825.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov16825_eeprom.so:system/vendor/lib/libmmcamera_ov16825_eeprom.so \
-	$(LOCAL_PATH)/proprietary/vendor/lib/ibmmcamera_ov8825.so:system/vendor/lib/ibmmcamera_ov8825.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
