@@ -116,16 +116,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
 	$(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH)/proprietary/lib/libtouchless_a3d.so:system/lib/libtouchless_a3d.so \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_PreI2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_PreI2C_NCD_Unsigned_configdata.ncd \
 	$(LOCAL_PATH)/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
