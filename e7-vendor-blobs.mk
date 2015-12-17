@@ -235,7 +235,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot_hd.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot_hd.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_preview.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_preview.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_preview_hd.so.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_preview_hd.so \
+        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_preview_hd.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_preview_hd.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_snapshot.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_snapshot.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_video.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_video.so \
         $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_video_hd.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_video_hd.so \
@@ -275,7 +275,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_liveshot_hd.so:system/vendor/lib/libchromatix_ov16825_liveshot_hd.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_snapshot.so:system/vendor/lib/libchromatix_ov16825_snapshot.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_snapshot_hd.so:system/vendor/lib/libchromatix_ov16825_snapshot_hd.so \
-	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_video.so:system/vendor/lib/libchromatix_ov16825_video.so.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_video.so:system/vendor/lib/libchromatix_ov16825_video.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_video_hd.so:system/vendor/lib/libchromatix_ov16825_video_hd.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov16825_zsl.so:system/vendor/lib/libchromatix_ov16825_zsl.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov2720_common.so:system/vendor/lib/libchromatix_ov2720_common.so \
