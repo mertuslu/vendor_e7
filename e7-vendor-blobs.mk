@@ -93,6 +93,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so \
+	$(LOCAL_PATH)/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+	$(LOCAL_PATH)/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+	$(LOCAL_PATH)/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 	$(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	$(LOCAL_PATH)/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	$(LOCAL_PATH)/proprietary/lib/libgn_camera_feature.so:system/lib/libgn_camera_feature.so \
